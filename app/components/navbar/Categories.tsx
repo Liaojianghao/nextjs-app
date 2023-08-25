@@ -39,62 +39,62 @@ export const categories = [
   {
     label: '乡村',
     icon: TbMountain,
-    description: 'This property is in the countryside!',
+    description: '这里处在一个美丽的乡村!',
   },
   {
     label: '泳池',
     icon: TbPool,
-    description: 'This is property has a beautiful pool!',
+    description: '此处有一个很大的泳池!',
   },
   {
     label: '岛屿',
     icon: GiIsland,
-    description: 'This property is on an island!',
+    description: '这个地方在岛屿上!',
   },
   {
     label: '湖泊',
     icon: GiBoatFishing,
-    description: 'This property is near a lake!',
+    description: '此处附近有一个美丽的湖泊!',
   },
   {
     label: '滑雪',
     icon: FaSkiing,
-    description: 'This property has skiing activies!',
+    description: '这里可是滑雪的好地方!',
   },
   {
     label: '城堡',
     icon: GiCastle,
-    description: 'This property is an ancient castle!',
+    description: '这里有一个大大的城堡!',
   },
   {
-    label: '山脉',
+    label: '洞穴',
     icon: GiCaveEntrance,
-    description: 'This property is in a spooky cave!',
+    description: '此处房屋在洞穴里面!',
   },
   {
     label: '露营',
     icon: GiForestCamp,
-    description: 'This property offers camping activities!',
+    description: '此处是露营的最佳选择!',
   },
   {
     label: '北极',
     icon: BsSnow,
-    description: 'This property is in arctic environment!',
+    description: '这里是北极,快去找🐧吧(bushi)!',
   },
   {
     label: '沙漠',
     icon: GiCactus,
-    description: 'This property is in the desert!',
+    description: '此处是一个很大的沙漠!',
   },
   {
     label: '农场',
     icon: GiBarn,
-    description: 'This property is in a barn!',
+    description: '这里是一片农场!',
   },
   {
     label: 'Lux',
     icon: IoDiamond,
-    description: 'This property is brand new and luxurious!',
+    description: '这里很贵!!!',
   },
 ];
 
@@ -102,7 +102,7 @@ const Categories = () => {
   const params = useSearchParams();
   const category = params?.get('category');
   const pathname = usePathname();
-  //我们只想再index页面看到这些cate
+
   const isManiPage = pathname === '/';
 
   if (!isManiPage) {

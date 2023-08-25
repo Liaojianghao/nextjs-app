@@ -1,5 +1,5 @@
 'use client';
-import AvatarJpg from '../../public/images/vercel.svg';
+import AvatarJpg from '../../public/images/placeholder.jpg';
 import Image from 'next/image';
 
 interface AvatarProps {
